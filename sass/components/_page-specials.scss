@@ -1,0 +1,40 @@
+.quality_box {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+
+
+.specials_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quality_item {
+  margin-right: 30px;
+  width: 270px;
+  &:last-child {
+    margin-right: 0px;
+    }
+}
+
+.quality_title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--first-text-color);
+  margin-bottom: 10px;
+}
+
+.quality_text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
