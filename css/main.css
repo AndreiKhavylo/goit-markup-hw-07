@@ -91,14 +91,13 @@ body {
   padding-bottom: 94px;
 }
 
-.header {
+header {
   border-bottom: 1px solid #ececec;
 }
 
 .header_container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #ECECEC;
 }
 
 .header_logo {
@@ -435,7 +434,6 @@ body {
 
 .socials_link:hover, .socials_link:focus {
   background-color: var(--accent-color);
-  outline: none;
 }
 
 .socials_icon {
@@ -490,7 +488,6 @@ body {
 .company_link:focus {
   color: var(--accent-color);
   border: 1px solid #2196f3;
-  outline: none;
 }
 
 .company_icon {
@@ -549,7 +546,6 @@ footer {
 
 .adress_link:hover, .adress_link:focus {
   color: var(--accent-color);
-  outline: none;
 }
 
 .adress_item:first-child {
@@ -569,7 +565,6 @@ footer {
 
 .adress_mail:hover, .adress_mail:focus {
   color: var(--accent-color);
-  outline: none;
 }
 
 .adress_tell {
@@ -585,7 +580,6 @@ footer {
 
 .adress_tell:hover, .adress_tell:focus {
   color: var(--accent-color);
-  outline: none;
 }
 
 .footer_text {
@@ -632,7 +626,6 @@ footer {
 
 .social_link:hover, .social_link:focus {
   background-color: var(--accent-color);
-  outline: none;
 }
 
 .social_icon {
@@ -899,7 +892,6 @@ footer {
 .modal_close:focus, .modal_close:hover {
   border-color: var(--accent-color);
   fill: var(--accent-color);
-  outline: none;
 }
 
 .modal_text {
@@ -934,7 +926,6 @@ footer {
 
 .form_imput:focus {
   border-color: var(--accent-color);
-  outline: none;
 }
 
 .form_imput::placeholder {
@@ -962,11 +953,14 @@ footer {
   fill: var(--accent-color);
 }
 
+.form_wrap-coment {
+  margin-bottom: 20px;
+}
+
 .form_imput-text {
   height: 120px;
   padding: 12px 16px;
   resize: none;
-  margin-bottom: 20px;
 }
 
 .form_label {
